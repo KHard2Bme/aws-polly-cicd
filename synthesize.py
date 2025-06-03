@@ -1,4 +1,7 @@
 import os
+print("AWS_ACCESS_KEY_ID:", repr(os.environ.get("AWS_ACCESS_KEY_ID")))
+print("AWS_SECRET_ACCESS_KEY:", repr(os.environ.get("AWS_SECRET_ACCESS_KEY")))
+
 import boto3
 
 def synthesize_speech(text, output_filename):
