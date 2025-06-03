@@ -6,9 +6,10 @@ def synthesize_speech(text, output_filename):
     polly = boto3.client('polly')
 
     response = polly.synthesize_speech(
-        Text=text,
-        OutputFormat='mp3',
-        VoiceId='Joanna'  # You can change this to another voice if you'd like
+    Text=text,
+    OutputFormat='mp3',
+    VoiceId='Kevin',  # or any NTTS-supported voice
+    Engine='neural'    
     )
 
     # Save the audio stream to a file
@@ -46,3 +47,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
