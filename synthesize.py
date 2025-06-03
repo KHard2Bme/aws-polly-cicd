@@ -29,7 +29,7 @@ def upload_to_s3(file_path, bucket_name, object_key):
 
 def main():
     # Load environment variables
-    bucket_name = os.environ.get('S3_BUCKET_NAME')
+    bucket_name = os.environ.get("S3_BUCKET_NAME")
     output_filename = os.environ.get('OUTPUT_FILENAME', 'output.mp3')
     object_key = f'polly-audio/{output_filename}'
 
