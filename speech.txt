@@ -1,2 +1,2 @@
-Welcome to Pixel Learning Co., where we make education more accessible. We're now converting our GitHub-based course content into audio using AWS AI, so you can learn by listening anytime, anywhere.
+Knowledge is the accumulation of facts, information, and skills acquired through experience or education—it's what you know. Wisdom is the ability to use that knowledge with good judgment, understanding, and insight—it's how you apply what you know to life. One attains knowledge through study, observation, learning from others, and personal experience. Wisdom, however, is often gained over time through reflection, facing challenges, making mistakes, and learning from real-life experiences. In essence: knowledge informs; wisdom guides.
 
